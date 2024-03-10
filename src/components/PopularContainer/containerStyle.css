@@ -1,0 +1,33 @@
+.popular .container{
+    display: flex;
+    width: 80vw;
+    margin: 50px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular .container.reverse{
+    flex-direction: row-reverse;
+}
+
+.popular .container .txt{
+    width: 49%;
+}
+
+.popular .container .images{
+    display: flex;
+    width: 49%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.popular .container .images img{
+    width: 49%;
+    height: 350px;
+    border-radius: 6px;
+}
+
+.popular .container .images img:nth-child(2){
+    position: relative;
+    top: -20px;
+}
